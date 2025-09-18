@@ -1,18 +1,18 @@
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
-     background-color: #f2eee9;
-     color: #333;
+    background-color: #f2eee9;
+    color: #333;
 }
 
 /* header stuff here */
 header {
-    background-color: #e85234;
+    background-color: #B32E14;
     padding: 1rem 10px;
 }
 
 header span {
-    color: #f2d7d3;
+    color: #f2eee9;
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -55,7 +55,7 @@ main {
 
 /* start style the main tag video at 1min in */
 main h1 {
-    color: #e85234;
+    color: #B32E14;
 }
 
 main h2 {
@@ -71,10 +71,11 @@ main p {
 main ol {
     padding: .5rem 30px;
     background-color: #96add6;
+    color: #000;
 }
 
 main dl dt {
-    color: #e85234;
+    color: #B32E14;
     font-weight: 700;
     margin-top: 1rem;
 }
@@ -109,7 +110,7 @@ main address {
     background-color: #f2d7d3;
     padding: .5rem;
     border-radius: 10px;
-    border: 2px solid #e85234;
+    border: 2px solid #B32E14;
     width: 200px;
 
     /* i added this margin because i think it looks nice */
@@ -121,7 +122,7 @@ main a {
 }
 
 main a:hover {
-    color: #e85234;
+    color: #B32E14;
 }
 
 
