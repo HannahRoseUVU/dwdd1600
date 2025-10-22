@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hannah Rose">
+    <meta name="description"
+        content="Learn how circular linkers are used to join knitted pieces and streamline blanket assembly.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Request – Hannah Rose</title>
+
+    <!-- linking the font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- linking the css file -->
+    <link rel="stylesheet" href="knitting.css">
+        <!-- linking the fav icon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.png" alt="logo that is a skein of yarn that looks like the letter s" width="30"
+            height="30">
+        <span>Knitting Machines</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="flatbed.html">Flat Bed Machine</a></li>
+            <li><a href="linker.html">Circular Linker</a></li>
+            <li class="active"><a href="tutorial.html">Tutorial Request</a></li>
+            <li><a href="help.html">Help Info</a></li>
+            <li><a href="startersweater.html">Starter Sweater</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- start the main content -->
+    <main>
+        <h1>Request a Tutorial</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+               <label>Email*<input type="email" name="email" required placeholder="you@example.com"></label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Tutorial Format</legend>
+                <label><input type="radio" name="format" value="video">Video tutorial (recorded)</label>
+                <label><input type="radio" name="format" value="live">Live demo (scheduling required)</label>
+                <label><input type="radio" name="format" value="pdf">Step-by-step PDF</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label><input type="checkbox" name="materials" value="pattern"> Include pattern file</label>
+                <label><input type="checkbox" name="materials" value="stitch"> Include stitch guide</label>
+                <label><input type="checkbox" name="materials" value="supply"> Include supply list</label>
+                <label for="time">Prefered Season
+                    <select id="time" name="time">
+                        <option value="none">Select a Season</option>
+                        <option value="winter">Winter</option>
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="fall">Fall</option>
+                    </select>
+                </label>
+
+            </fieldset>
+
+            <label>Other Requests
+                <textarea name="comments"></textarea>
+            </label>
+
+
+            <input type="submit" value="Send Tutorial Request">
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Hannah Rose &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
